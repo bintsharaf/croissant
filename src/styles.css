@@ -1,8 +1,7 @@
 body {
-    max-width: 700px;
+    
     background: #7c9e20;
-    margin: 0px auto;
-    padding: 0 20px;
+    
 }
 h1 {
     text-transform: capitalize;
@@ -10,7 +9,12 @@ h1 {
 h1, p {
     text-align: center;
 }
-
+.croissant {
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: 30px auto;
+}
 footer {
     display: flex;
     justify-content: center;
